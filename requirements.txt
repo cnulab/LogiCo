@@ -1,0 +1,17 @@
+torch>=2.5.0
+torchvision
+numpy
+opencv-python
+Pillow
+scikit-learn
+scikit-image
+PyYAML
+easydict
+huggingface_hub
+einops
+kornia
+tabulate
+ftfy
+regex
+pandas
+grad_cam

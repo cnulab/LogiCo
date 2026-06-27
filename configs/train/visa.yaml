@@ -1,0 +1,44 @@
+image_size: 512
+total_epochs: 60
+
+
+encoder: dinov3_vitb16
+encoder_target_layers: [11]
+encoder_feat_stride: 8
+encoder_feat_dim: 512
+use_aggregate_features: true
+
+
+evaluation_frep: 2
+vis_size: 384
+resize_mask: 256
+max_ratio: 0.005
+val_proportion: 0.2
+
+
+synthesizer:
+  ano_percent: 0.5
+  configs:
+    DeleteComponents:
+    ReplaceComponents:
+    ComponentCutPaste:
+      add_percent: 0.5
+    EraseComponents:
+      erase_percent: 0.5
+
+
+model:
+  CRN_num_res_blocks: 2
+  CRN_channel: 256
+  CRN_channel_mult: [1, 2, 4]
+  CRN_attention_mult: [4]
+
+  SRN_num_res_blocks: 2
+  SRN_channel: 256
+  SRN_channel_mult: [1, 2, 4]
+  SRN_attention_mult: [4]
+
+  SMD_size: 256
+  SMD_channel: 64
+  SMD_channel_mult: [1, 2, 2, 2]
+  SMD_num_res_blocks: 1

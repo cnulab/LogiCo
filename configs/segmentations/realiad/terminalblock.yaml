@@ -1,0 +1,41 @@
+image_size: 512
+cluster_sample_num: 50
+topk: 0.1
+area_threshold: 0.005
+remove_small_holes_threshold: 0.001
+
+prompts: ["connector", "screw", "black background"]
+
+prompt_templates:
+  - "a photo of {}"
+  - "an image of {}"
+  - "a photograph of {}"
+  - "a picture of {}"
+  - "a photo of a {}"
+  - "an image of a {}"
+  - "a photo of the {}"
+  - "an image of the {}"
+  - "a close-up photo of {}"
+  - "a cropped image featuring {}"
+
+
+palette: [204, 241, 227, 112, 142, 18,
+          254, 8, 23, 207, 149, 84,
+          202, 24, 214, 230, 192, 37,
+          241, 80, 68, 74, 127, 0,
+          2, 81, 216, 24, 240, 129,
+          20, 215, 125, 161, 31, 204,
+          254, 52, 116, 117, 198, 203,
+          4, 41, 68, 127, 252, 61,
+          21, 3, 142, 40, 10, 159,
+          241, 61, 36, 14, 175, 77,
+          144, 61, 115, 131, 79, 97,
+          109, 177, 163, 58, 198, 140,
+          17, 235, 168, 47, 128, 91,
+          238, 103, 45, 124, 35, 228,
+          101, 48, 232, 74, 124, 114,
+          78, 49, 30, 35, 167, 27,
+          137, 231, 47, 235, 32, 39,
+          56, 112, 32, 62, 173, 79,
+          86, 44, 201, 77, 47, 217,
+          246, 223, 57, 0, 0, 0]

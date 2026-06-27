@@ -1,0 +1,49 @@
+python create_segmentation_maps.py --dataset mvtec --category bottle
+python create_segmentation_maps.py --dataset mvtec --category cable
+python create_segmentation_maps.py --dataset mvtec --category capsule
+python create_segmentation_maps.py --dataset mvtec --category carpet
+python create_segmentation_maps.py --dataset mvtec --category grid
+python create_segmentation_maps.py --dataset mvtec --category hazelnut
+python create_segmentation_maps.py --dataset mvtec --category leather
+python create_segmentation_maps.py --dataset mvtec --category metal_nut
+python create_segmentation_maps.py --dataset mvtec --category pill
+python create_segmentation_maps.py --dataset mvtec --category screw
+python create_segmentation_maps.py --dataset mvtec --category tile
+python create_segmentation_maps.py --dataset mvtec --category toothbrush
+python create_segmentation_maps.py --dataset mvtec --category transistor
+python create_segmentation_maps.py --dataset mvtec --category wood
+python create_segmentation_maps.py --dataset mvtec --category zipper
+
+
+python train_logico.py --dataset mvtec --category bottle
+python train_logico.py --dataset mvtec --category cable
+python train_logico.py --dataset mvtec --category capsule
+python train_logico.py --dataset mvtec --category carpet
+python train_logico.py --dataset mvtec --category grid
+python train_logico.py --dataset mvtec --category hazelnut
+python train_logico.py --dataset mvtec --category leather
+python train_logico.py --dataset mvtec --category metal_nut
+python train_logico.py --dataset mvtec --category pill
+python train_logico.py --dataset mvtec --category screw
+python train_logico.py --dataset mvtec --category tile
+python train_logico.py --dataset mvtec --category toothbrush
+python train_logico.py --dataset mvtec --category transistor
+python train_logico.py --dataset mvtec --category wood
+python train_logico.py --dataset mvtec --category zipper
+
+
+python evaluation.py --dataset mvtec --category bottle
+python evaluation.py --dataset mvtec --category cable
+python evaluation.py --dataset mvtec --category capsule
+python evaluation.py --dataset mvtec --category carpet
+python evaluation.py --dataset mvtec --category grid
+python evaluation.py --dataset mvtec --category hazelnut
+python evaluation.py --dataset mvtec --category leather
+python evaluation.py --dataset mvtec --category metal_nut
+python evaluation.py --dataset mvtec --category pill
+python evaluation.py --dataset mvtec --category screw
+python evaluation.py --dataset mvtec --category tile
+python evaluation.py --dataset mvtec --category toothbrush
+python evaluation.py --dataset mvtec --category transistor
+python evaluation.py --dataset mvtec --category wood
+python evaluation.py --dataset mvtec --category zipper
