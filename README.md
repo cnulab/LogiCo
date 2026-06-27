@@ -21,7 +21,7 @@ $ pip install -r requirements.txt
 Request [DINOv3](https://ai.meta.com/resources/models-and-libraries/dinov3-downloads/) weights, and download DINOv3-B/16 (dinov3_vitb16_pretrain_lvd1689m-73cec8be.pth), DINOv3-L/16 (dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth), and DINOv3-based dino.txt (dinov3_vitl16_dinotxt_vision_head_and_text_encoder-a442d8f5.pth). Place them under the [`ckpt`](ckpt/) directory.  
   
 ### Download Datasets  
-- **MVTec-LOCO [[Official]](https://www.mvtec.com/research-teaching/datasets/mvtec-loco-ad))**
+- **MVTec-LOCO [[Official]](https://www.mvtec.com/research-teaching/datasets/mvtec-loco-ad)**
 - **MVTec-AD [[Official]](https://www.mvtec.com/company/research/datasets/mvtec-ad/)**  
 - **VisA [[Official]](https://github.com/amazon-science/spot-diff)**
 - **Real-IAD [[Official]](https://realiad4ad.github.io/Real-IAD/)**
