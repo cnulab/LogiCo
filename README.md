@@ -1,5 +1,5 @@
 # LogiCo
-Official implementation of ["LogiCo: A Unified Framework for Logical and Structural Anomaly Detection (ECCV 2026)"]()  
+Official implementation of ["LogiCo: A Unified Framework for Logical and Structural Anomaly Detection (ECCV 2026)"](https://arxiv.org/abs/2606.28688)  
 
 
 
@@ -56,5 +56,12 @@ The complete running scripts are provided in the [`runs`](runs/) folder.
 
 If this work is helpful to you, please cite it as:
 ```
-comming soon.
+@inproceedings{zhang2026logico,
+      title={LogiCo: A Unified Framework for Logical and Structural Anomaly Detection}, 
+      author={Ximiao Zhang, Min Xu, and Xiuzhuang Zhou},
+      year={2026},
+      eprint={2606.28688},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
